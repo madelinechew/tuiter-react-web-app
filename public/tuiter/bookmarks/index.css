@@ -3,7 +3,6 @@ body {
     background-color: black;
     border-color: rgb(47, 51, 54);
     font-family: 'Helvetica', 'Times New Roman', sans-serif;
-    
 }
 
 .wd-content-offset {
@@ -38,14 +37,13 @@ p {
     margin-bottom: 0px; 
 }
 
-.wd-bookmarked-tuit {
-    padding: 12;
-    background-color: white;
-}
-
 .wd-bookmarked-tuit-picture {
+    clear: both;
     padding-left: 16px; 
     padding-top: 12px; 
+    padding-bottom: 12px; 
+    border: solid rgb(110, 118, 125) 1px; 
+    overflow: auto; 
 }
 
 .wd-profile-picture-image {
@@ -110,4 +108,16 @@ p {
     width: 25%;
     float: left;
     color: rgb(110,118,125); 
+}
+
+.wd-icon-style {
+    color:rgb(110, 118, 125); 
+    font-size: 12px; 
+    padding-right: 12px; 
+}
+
+.wd-heart-icon {
+    color: red; 
+    font-size: 12px; 
+    padding-right: 12px; 
 }
