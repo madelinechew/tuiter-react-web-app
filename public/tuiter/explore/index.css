@@ -1,19 +1,21 @@
 
 body {
     background-color: black;
-    margin: 12px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
 }
 
 .wd-content-offset {
     clear: both; 
-    padding-left: 16px;
-    margin-top: 16px; 
+    padding-top: 12px; 
+    padding-bottom: 10px; 
+    padding-left: 16px; 
 }
 
 /* A. */
 .wd-search-bar {
     border-radius: 50px;
     width: 90%; 
+    height: 24px; 
 }
 
 .wd-bg-color-dark-grey {
@@ -34,7 +36,7 @@ body {
     clear: both;
 }
  
-.wd-grid-col-one {
+.wd-grid-col {
     width: 13%;
     float: left;
 }
@@ -52,7 +54,7 @@ body {
 
 .wd-header-font {
     size: 15px;
-    margin: 16px
+    padding: 16px
 }
 
 /* C/D/E */
@@ -64,6 +66,7 @@ ul {
 }
 .wd-bold-tuit {
     color: white; 
+    font-size: 18px; 
 }
 
 .wd-tuit-image {
