@@ -1,0 +1,123 @@
+
+body {
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+.wd-content-offset {
+    clear: both; 
+    padding-top: 12px; 
+    padding-bottom: 10px; 
+    padding-left: 16px; 
+}
+
+/* A. */
+.wd-heading {
+    color: white; 
+    font-size: 20px; 
+}
+
+.wd-header {
+    padding-left: 16px; 
+    padding-top: 12px; 
+    border: solid 1px  rgb(110, 118, 125);
+    padding-bottom: 4px;  
+}
+
+.wd-subheading {
+    font-size: 13px; 
+    color: rgb(110, 118, 125);
+}
+
+/*B & C*/
+
+p {
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+}
+
+.wd-bookmarked-tuit-picture {
+    clear: both;
+    padding-left: 16px; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    border: solid rgb(110, 118, 125) 1px; 
+    overflow: auto; 
+}
+
+.wd-profile-picture-image {
+    float: left;
+    border-radius: 50%;
+    width: 48px; 
+    height: 48px; 
+}
+
+.wd-bookmarked-tuit-content {
+    float: left;
+    margin-left: 12px; 
+}
+
+.wd-tuiter-name {
+    color: white; 
+    font-size: 15px; 
+}
+
+.wd-tuiter-username {
+    color:  rgb(110, 118, 125);
+    font-size: 15px; 
+}
+
+.wd-tuiter-tuit {
+    color: white; 
+    font-size: 15px; 
+    max-width: 506px;
+    padding-bottom: 12px; 
+}
+
+.wd-tuiter-image {
+    width: 504px; 
+    height: 264px; 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px rgb(110, 118, 125) solid; 
+}
+
+.wd-image-text-title {
+    color: white
+}
+
+.wd-image-text {
+    padding: 12px; 
+    width: 480px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px rgb(110,118,125) solid;
+}
+
+.wd-image-text-description {
+    color: rgb(110,118,125); 
+    font-size: 15px; 
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-col-one-fourth {
+    width: 25%;
+    float: left;
+    color: rgb(110,118,125); 
+}
+
+.wd-icon-style {
+    color:rgb(110, 118, 125); 
+    font-size: 12px; 
+    padding-right: 12px; 
+}
+
+.wd-heart-icon {
+    color: red; 
+    font-size: 12px; 
+    padding-right: 12px; 
+}

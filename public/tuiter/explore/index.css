@@ -1,0 +1,135 @@
+
+body {
+    background-color: black;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+.fa-magnifying-glass {
+    color:white;
+}
+
+.fa-gear {
+    color: #1DA1F2;
+    padding-top: 16px; 
+}
+
+.fa-circle-check {
+    color: #1DA1F2;
+    size: 18px; 
+}
+
+.wd-content-offset {
+    clear: both; 
+    padding-top: 12px; 
+    padding-bottom: 10px; 
+    padding-left: 16px; 
+}
+
+/* A. */
+.wd-search-bar {
+    border-radius: 50px;
+    width: 90%; 
+    height: 24px; 
+}
+
+.wd-bg-color-dark-grey {
+    background-color: darkgrey;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-float-right {
+    float: right;
+    padding-right: 12px; 
+ }
+
+/* B. */
+.wd-grid-row {
+    clear: both;
+}
+ 
+.wd-grid-col {
+    width: 13%;
+    float: left;
+    text-align: center;
+}
+
+.wd-highlight {
+    color: #1DA1F2;
+    padding-bottom: 10px;
+    border-bottom: solid 5px #1DA1F2;
+    border-radius: 4px;
+}
+
+.wd-fg-color-regular {
+    color: rgb(110, 118, 125);
+}
+
+.wd-header-font {
+    size: 15px;
+    padding: 16px
+}
+
+/* C/D/E */
+
+ul {
+    list-style-type: none; 
+    padding: 0px;
+    margin: 0px;
+}
+.wd-bold-tuit {
+    color: white; 
+    font-size: 18px; 
+    padding-bottom: 8px; 
+}
+
+.wd-tuit-image {
+    border-radius: 20px;
+    width: 100px;
+    height: 100px; 
+    float: right; 
+    right: 16px;
+}
+
+.wd-tuit-pfp {
+    width: 18px; 
+    height: 18px; 
+    border-radius: 50%;
+}
+
+/* C. Trending Posts */
+.wd-trending-post {
+    padding: 10px; 
+    border: rgb(47, 51, 54);
+    border-bottom-width: 0.5px;
+    border-style: solid;
+}
+
+.wd-post-regualr-text {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+/* D. Authored Posts */
+.wd-individual-post {
+    height: 110px; 
+    padding: 10px; 
+    border: rgb(47, 51, 54);
+    border-bottom-width: 0.5px;
+    border-style: solid;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+/* E. Topic Posts */
+.wd-topic-post {
+    height: 110px; 
+    padding: 10px; 
+    border: rgb(47, 51, 54);
+    border-bottom-width: 0.5px;
+    border-style: solid;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
