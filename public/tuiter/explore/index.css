@@ -1,20 +1,15 @@
 
 body {
-    background-color: black;
     font-family: 'Helvetica', 'Times New Roman', sans-serif;
-}
-
-.fa-magnifying-glass {
-    color:white;
 }
 
 .fa-gear {
     color: #1DA1F2;
-    padding-top: 16px; 
 }
 
+/*
+
 .fa-circle-check {
-    color: #1DA1F2;
     size: 18px; 
 }
 
@@ -25,11 +20,9 @@ body {
     padding-left: 16px; 
 }
 
-/* A. */
 .wd-search-bar {
     border-radius: 50px;
-    width: 90%; 
-    height: 24px; 
+    width: 80%;
 }
 
 .wd-bg-color-dark-grey {
@@ -45,7 +38,6 @@ body {
     padding-right: 12px; 
  }
 
-/* B. */
 .wd-grid-row {
     clear: both;
 }
@@ -69,16 +61,9 @@ body {
 
 .wd-header-font {
     size: 15px;
-    padding: 16px
+    padding: 16px;
 }
 
-/* C/D/E */
-
-ul {
-    list-style-type: none; 
-    padding: 0px;
-    margin: 0px;
-}
 .wd-bold-tuit {
     color: white; 
     font-size: 18px; 
@@ -99,7 +84,6 @@ ul {
     border-radius: 50%;
 }
 
-/* C. Trending Posts */
 .wd-trending-post {
     padding: 10px; 
     border: rgb(47, 51, 54);
@@ -112,7 +96,6 @@ ul {
     font-size: 13px;
 }
 
-/* D. Authored Posts */
 .wd-individual-post {
     height: 110px; 
     padding: 10px; 
@@ -123,7 +106,6 @@ ul {
     font-size: 13px;
 }
 
-/* E. Topic Posts */
 .wd-topic-post {
     height: 110px; 
     padding: 10px; 
@@ -132,4 +114,79 @@ ul {
     border-style: solid;
     color: rgb(110, 118, 125);
     font-size: 13px;
+}
+*/
+
+.fa-stack.small { 
+    font-size: 0.5em;
+}
+
+.list-group-item.stack-padding {
+    padding-left: 0.8em; 
+}
+
+
+.btn-offset-tuit{
+    margin-top: 0.5em;
+    width: 100%
+}
+
+.follow-pfp {
+    height: 48px; 
+    width: 48px; 
+    border-radius: 50%;
+}
+
+.follow-info {
+    width: 70%;
+    margin-right: none;
+    padding-left: 10px;
+}
+
+.span-search-bar {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: white;
+    border-right: 0px;
+}
+
+.input-search-bar {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-left: 0px;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+}
+
+.image-title {
+    font-size: 40px;
+    color: black;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+ul {
+    list-style-type: none; 
+    padding: 0px;
+    margin: 0px;
+}
+
+.image-posts {
+    border-radius: 20px;
+    width: 90px;
+    height: 90px; 
 }
