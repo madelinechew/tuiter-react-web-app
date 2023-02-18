@@ -56,16 +56,16 @@ const NavigationSidebar = () => {
       >
       <a
         href="/tuiter/more.html"
-        class="list-group-item list-group-item-action stack-padding d-flex align-items-center"
+        class="list-group-item list-group-item-action stack-padding d-flex align-items-center wd-left-padding"
         tabindex="-1"
       >
-        <span class="fa-stack small">
+        <span class="fa-stack small wd-small">
           <i class="fas fa-circle fa-stack-2x"></i>
-          <i class="fa fa-ellipsis fa-stack-1x"></i
+          <i class="fa fa-ellipsis text-secondary fa-stack-1x"></i
         ></span>
       <span class="d-none d-xl-block ps-1">More</span></a>
     </div>
-    <button class="btn btn-primary btn-offset-tuit rounded-pill">
+    <button class="btn btn-primary wd-btn-offset-tuit rounded-pill">
       Tuit
     </button>
   `);

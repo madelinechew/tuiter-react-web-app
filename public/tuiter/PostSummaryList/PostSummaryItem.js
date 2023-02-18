@@ -13,7 +13,7 @@ function PostSummaryItem(post) {
                 </li>
                 <li class="text-secondary">${post.tweets}</li>
             </ul>
-            <img class="image-posts ms-auto" src="${post.image}" />
+            <img class="wd-image-posts ms-auto" src="${post.image}" />
         </div>
     `);
 }

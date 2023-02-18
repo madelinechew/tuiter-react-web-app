@@ -7,10 +7,10 @@ const ExploreComponent = () => {
             <div>
             <div class="d-flex align-items-center">
               <div class="input-group">
-                <span class="input-group-text bg-transparent span-search-bar">
-                  <i class="fas fa-search"></i>
+                <span class="input-group-text bg-white wd-span-search-bar">
+                  <i class="fas fa-search text-secondary"></i>
                 </span>
-                <input type="text" class="form-control input-search-bar" />
+                <input type="text" class="form-control wd-input-search-bar" />
               </div>
               <a class="ms-auto" href="explore-settings.html">
                 <i class="fa-solid fa-gear ps-2"></i>
@@ -40,9 +40,9 @@ const ExploreComponent = () => {
           </div>
             </ul>
             <!-- image with overlaid text -->
-            <div class="image-container">
-              <img class="main-image" src="images/spaceship.png" />
-              <b class="image-title bottom-left">SpaceX's Starship</b>
+            <div class="wd-image-container">
+              <img class="wd-main-image" src="images/spaceship.png" />
+              <b class="wd-image-title wd-bottom-left">SpaceX's Starship</b>
             </div>
                 ${PostSummaryList()}
     `);
