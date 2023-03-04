@@ -39,7 +39,7 @@ const NavigationSidebar = () => {
         <span class="d-none d-xl-block ps-1">Bookmarks</span></a
       >
       <a
-        href="/tuiter/lists.html"
+        href="/tuiter/lists.
         class="list-group-item list-group-item-action d-flex align-items-center"
         tabindex="-1"
       >
