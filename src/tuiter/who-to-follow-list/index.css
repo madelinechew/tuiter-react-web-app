@@ -1,0 +1,11 @@
+.wd-follow-pfp {
+    height: 48px; 
+    width: 48px; 
+    border-radius: 50%;
+}
+
+.wd-follow-info {
+    width: 70%;
+    margin-right: none;
+    padding-left: 10px;
+}
