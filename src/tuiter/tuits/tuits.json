@@ -1,0 +1,44 @@
+[
+    {
+      "_id": 234,
+      "topic": "Space",
+      "userName": "SpaceX",
+      "time": "2h",
+      "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+      "image": "spacex.jpeg",
+      "liked": true,
+      "replies": 123,
+      "retuits": 432,
+      "likes": 2345,
+      "handle": "@spacex",
+      "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    },
+    {
+      "_id": 345,
+      "topic": "Rare Beauty",
+      "userName": "SelenaGomez",
+      "time": "1h",
+      "title": "I'm so proud to see the impact Rare Beauty is making in the beauty industry. #RareBeauty",
+      "image": "selenagomez.jpeg",
+      "liked": true,
+      "replies": 50,
+      "retuits": 200,
+      "likes": 1000,
+      "handle": "@selenagomez",
+      "tuit": " Every day, I'm blown away by the love and support we receive. Thank you to everyone who has been a part of this journey!  Rare Beauty is more than just a makeup brand. It's a community that celebrates inclusivity and self-expression. I'm excited for what's to come! #RareBeauty"
+      },
+      {
+      "_id": 456,
+      "topic": "Pilates and Workouts",
+      "userName": "lululemon",
+      "time": "2h",
+      "title": "What's your favorite way to sweat? #WorkoutMotivation",
+      "image": "lululemon.jpeg",
+      "liked": false,
+      "replies": 100,
+      "retuits": 500,
+      "likes": 2500,
+      "handle": "@lululemon",
+      "tuit": "Feeling energized after a morning Pilates session! There's nothing like starting the day with a good workout. Movement is medicine. Whether you're a yogi, a runner, or a Pilates lover, keep moving and keep challenging yourself. The possibilities are endless! #FitnessGoals #Lululemon"
+      }
+]

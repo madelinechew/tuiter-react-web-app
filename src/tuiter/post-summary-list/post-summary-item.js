@@ -2,21 +2,14 @@ import React from "react";
 import './index.css';
 
 const PostSummaryItem = ({
-  post = {
-    topic: "FAFAFAAF",
-    userName: "SpaceX",
-    time: "2h",
-    title:
-      "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
-    image: "tesla.jpeg",
-  },
+  post
 }) => {
   return (
     <div className="list-group-item d-flex align-items-center">
       <ul>
         <li className="text-secondary">
             {post.topic}
-            <span className="text-secondary"> . {post.time} </span>
+            <span className="text-secondary"> · {post.time} </span>
         </li>
         <li>
           <b>{post.userName}</b>

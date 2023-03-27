@@ -1,12 +1,14 @@
 import React from "react";
 
-const NavigationSidebar = ({ active = "explore" }) => {
+const NavigationSidebar = ({ active }) => {
   return (
     <>
       <div className="list-group">
-        <a className="list-group-item">Tuiter</a>
+        <a className="list-group-item">
+          <span className="d-none d-xl-block ps-1">Tuiter</span>
+        </a>
         <a
-          href="/tuiter/home.html"
+          href="/tuiter"
           className={`list-group-item list-group-item-action d-flex align-items-center ${
             active === "home" ? "active" : ""
           }`}
@@ -16,7 +18,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
         </a>
 
         <a
-          href="/tuiter/explore.html"
+          href="/tuiter/explore"
           className={`list-group-item list-group-item-action d-flex align-items-center ${
             active === "explore" ? "active" : ""
           }`}
