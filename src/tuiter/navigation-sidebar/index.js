@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavigationSidebar = ({ active }) => {
   return (
@@ -7,25 +8,26 @@ const NavigationSidebar = ({ active }) => {
         <a className="list-group-item">
           <span className="d-none d-xl-block ps-1">Tuiter</span>
         </a>
-        <a
-          href="/tuiter"
+
+        <Link
+          to="/tuiter"
           className={`list-group-item list-group-item-action d-flex align-items-center ${
             active === "home" ? "active" : ""
           }`}
         >
           <i className="bi bi-house"></i>
           <span className="d-none d-xl-block ps-1">Home</span>
-        </a>
+        </Link>
 
-        <a
-          href="/tuiter/explore"
+        <Link
+          to="/tuiter/explore"
           className={`list-group-item list-group-item-action d-flex align-items-center ${
             active === "explore" ? "active" : ""
           }`}
         >
           <i className="bi bi-hash"></i>
           <span className="d-none d-xl-block ps-1">Explore</span>
-        </a>
+        </Link>
 
         <a
           href="/tuiter/notifications.html"
