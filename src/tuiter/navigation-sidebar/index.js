@@ -1,29 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const NavigationSidebar = ({ active = "explore" }) => {
+const NavigationSidebar = ({ active }) => {
   return (
     <>
       <div className="list-group">
-        <a className="list-group-item">Tuiter</a>
-        <a
-          href="/tuiter/home.html"
+        <a className="list-group-item">
+          <span className="d-none d-xl-block ps-1">Tuiter</span>
+        </a>
+
+        <Link
+          to="/tuiter"
           className={`list-group-item list-group-item-action d-flex align-items-center ${
             active === "home" ? "active" : ""
           }`}
         >
           <i className="bi bi-house"></i>
           <span className="d-none d-xl-block ps-1">Home</span>
-        </a>
+        </Link>
 
-        <a
-          href="/tuiter/explore.html"
+        <Link
+          to="/tuiter/explore"
           className={`list-group-item list-group-item-action d-flex align-items-center ${
             active === "explore" ? "active" : ""
           }`}
         >
           <i className="bi bi-hash"></i>
           <span className="d-none d-xl-block ps-1">Explore</span>
-        </a>
+        </Link>
 
         <a
           href="/tuiter/notifications.html"

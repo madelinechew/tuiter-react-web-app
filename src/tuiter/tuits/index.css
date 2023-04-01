@@ -1,0 +1,15 @@
+.wd-follow-pfp {
+    height: 48px; 
+    width: 48px; 
+    border-radius: 50%;
+}
+
+.wd-post-info {
+    padding-left: 35;
+}
+
+.wd-delete-button-position {
+    position: absolute;
+    top: 8px; 
+    right: 16px;
+}
