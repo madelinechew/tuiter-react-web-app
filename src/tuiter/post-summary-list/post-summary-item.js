@@ -12,7 +12,7 @@ const PostSummaryItem = ({
             <span className="text-secondary"> · {post.time} </span>
         </li>
         <li>
-          <b>{post.userName}</b>
+          <b>{post.username}</b>
           <i className="fa-solid fa-circle-check"></i>
         </li>
         <li>
